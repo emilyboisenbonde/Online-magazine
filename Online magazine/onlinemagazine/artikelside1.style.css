@@ -1,0 +1,80 @@
+body{
+    background-color: black;
+    margin:0;
+}
+header{
+    background: black;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    margin-bottom: 100px;
+}
+
+header nav{
+    background-color: black;
+    margin:0;
+    padding:0;
+    padding-left: 0%;
+    padding-right: 0%;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+header nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 120px;
+}
+
+header nav ul li a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: orange;
+    font-weight: bold;
+}
+
+main section {
+    padding: 40px;
+    margin-top: 100px;
+    background:#b8e994;
+    width: 700px;
+    height: 1200px;
+    border-radius: 40px;
+    margin-left: 23%;
+    
+   
+}
+main section p{
+    margin: 2px;
+    color:#009432;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main section h1{
+    color: #009432;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+
+}
+main section h2{
+    color:#6ab04c;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;/*midlertidig skrift. ikke bold*/
+    text-align: center;
+    font-weight:lighter;    
+}
+
+main section h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #009432;
+    vertical-align:middle;
+}
+
+.verticalcontainer h3{
+    writing-mode: vertical-lr;
+    font-size: size 20pt;
+    margin-left: 50%;
+}
